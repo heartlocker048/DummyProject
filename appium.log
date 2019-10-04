@@ -1,0 +1,88 @@
+[35m[Appium][39m Welcome to Appium v1.15.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 52960
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   chromeDriverPort: 52961
+[35m[Appium][39m   tmpDir: C:\Users\Om\AppData\Local\Temp\\Katalon\Appium\Temp1569930420931
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:52960
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m18 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"E:\\Testing\\AndroidProject1\\app\\build\\outputs\\apk\\debug\\app-debug.apk","noReset":true,"deviceName":"Xiaomi Redmi Note 4 (Android 7.0)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"7.0","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"cdd3e0840603","systemPort":52966},"capabilities":{"firstMatch":[{"appium:app":"E:\\Testing\\AndroidProject1\\app\\build\\outputs\\apk\\debug\\app-debug.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"Xiaomi Redmi Note 4 (Android 7.0)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"7.0","appium:systemPort":52966,"appium:udid":"cdd3e0840603"}]}}[39m
+[35m[BaseDriver][39m The capabilities ["platform"] are not standard capabilities and should have an extension prefix
+[35m[Appium][39m Appium v1.15.0 creating new AndroidUiautomator2Driver (v1.37.1) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: d4259090-e48d-401e-9ea6-e9260ad4fe83
+[35m[BaseDriver][39m Using local app 'E:\Testing\AndroidProject1\app\build\outputs\apk\debug\app-debug.apk'
+[35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\Om\.katalon\tools\android_sdk' (newest first):
+[35m[ADB][39m     C:/Users/Om/.katalon/tools/android_sdk/build-tools/29.0.2
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\Om\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: cdd3e0840603
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\Om\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[ADB][39m Using the alternative activity name detection method because of: Could not find 'apkanalyzer.bat' in ["C:\\Users\\Om\\.katalon\\tools\\android_sdk\\platform-tools\\apkanalyzer.bat","C:\\Users\\Om\\.katalon\\tools\\android_sdk\\emulator\\apkanalyzer.bat","C:\\Users\\Om\\.katalon\\tools\\android_sdk\\tools\\apkanalyzer.bat","C:\\Users\\Om\\.katalon\\tools\\android_sdk\\tools\\bin\\apkanalyzer.bat","C:\\Users\\Om\\.katalon\\tools\\android_sdk\\build-tools\\29.0.2\\apkanalyzer.bat"]. Do you have Android Build Tools installed at 'C:\Users\Om\.katalon\tools\android_sdk'?
+[35m[ADB][39m Using 'aapt.exe' from 'C:\Users\Om\.katalon\tools\android_sdk\build-tools\29.0.2\aapt.exe'
+[35m[ADB][39m Extracting package and launch activity from manifest
+[35m[ADB][39m Package name: 'com.example.myapplication'
+[35m[ADB][39m Main activity name: 'com.example.myapplication.MainActivity'
+[35m[ADB][39m The application at 'C:\Users\Om\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk' is already cached to '/data/local/tmp/appium_cache/3d97225b036c28750562ef8962defee6b1af19a4.apk'
+[35m[ADB][39m The installation of 'settings_apk-debug.apk' took 7.120s
+[35m[ADB][39m Using 'apksigner.bat' from 'C:\Users\Om\.katalon\tools\android_sdk\build-tools\29.0.2\apksigner.bat'
+[35m[ADB][39m Using 'zipalign.exe' from 'C:\Users\Om\.katalon\tools\android_sdk\build-tools\29.0.2\zipalign.exe'
+[35m[UiAutomator2][39m Server packages are going to be (re)installed
+[35m[ADB][39m Caching the application at 'C:\Users\Om\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.3.0.apk' to '/data/local/tmp/appium_cache/0cc1725a60a05dbb5d0d09256f2fc6ece7e3b10f.apk'
+[35m[ADB][39m The upload of 'appium-uiautomator2-server-v4.3.0.apk' (2.14 MB) took 0.962s
+[35m[ADB][39m The installation of 'appium-uiautomator2-server-v4.3.0.apk' took 6.062s
+[35m[ADB][39m Caching the application at 'C:\Users\Om\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' to '/data/local/tmp/appium_cache/cd247f042368990c9f33b2d7bf2390d8cf4f4e24.apk'
+[35m[ADB][39m The upload of 'appium-uiautomator2-server-debug-androidTest.apk' (539.10 KB) took 0.730s
+[35m[ADB][39m The installation of 'appium-uiautomator2-server-debug-androidTest.apk' took 5.039s
+[35m[ADB][39m Cannot extract apk info using apkanalyzer. Falling back to aapt. Original error: Could not find 'apkanalyzer.bat' in ["C:\\Users\\Om\\.katalon\\tools\\android_sdk\\platform-tools\\apkanalyzer.bat","C:\\Users\\Om\\.katalon\\tools\\android_sdk\\emulator\\apkanalyzer.bat","C:\\Users\\Om\\.katalon\\tools\\android_sdk\\tools\\apkanalyzer.bat","C:\\Users\\Om\\.katalon\\tools\\android_sdk\\tools\\bin\\apkanalyzer.bat","C:\\Users\\Om\\.katalon\\tools\\android_sdk\\build-tools\\29.0.2\\apkanalyzer.bat"]. Do you have Android Build Tools installed at 'C:\Users\Om\.katalon\tools\android_sdk'?
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.3.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\Om\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.3.0.apk' and test from 'C:\Users\Om\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"code":"ECONNRESET"}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"code":"ECONNRESET"}
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.example.myapplication/com.example.myapplication.MainActivity and waiting for 'com.example.myapplication/com.example.myapplication.MainActivity'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session d4259090-e48d-401e-9ea6-e9260ad4fe83 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m52250 ms - 1272[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d4259090-e48d-401e-9ea6-e9260ad4fe83[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d4259090-e48d-401e-9ea6-e9260ad4fe83 [39m[32m200[39m [90m62 ms - 1204[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d4259090-e48d-401e-9ea6-e9260ad4fe83[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d4259090-e48d-401e-9ea6-e9260ad4fe83 [39m[32m200[39m [90m17 ms - 1204[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/d4259090-e48d-401e-9ea6-e9260ad4fe83/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":60000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/d4259090-e48d-401e-9ea6-e9260ad4fe83/timeouts [39m[32m200[39m [90m7 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d4259090-e48d-401e-9ea6-e9260ad4fe83/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (d4259090)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 9cbafc09-db35-44b3-ac99-c142b8c12cc3 with d4259090-e48d-401e-9ea6-e9260ad4fe83
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d4259090-e48d-401e-9ea6-e9260ad4fe83/source [39m[32m200[39m [90m55 ms - 4597[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/d4259090-e48d-401e-9ea6-e9260ad4fe83/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/d4259090-e48d-401e-9ea6-e9260ad4fe83/screenshot [39m[32m200[39m [90m587 ms - 52388[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/d4259090-e48d-401e-9ea6-e9260ad4fe83[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session d4259090-e48d-401e-9ea6-e9260ad4fe83 from our master session list
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/d4259090-e48d-401e-9ea6-e9260ad4fe83 [39m[32m200[39m [90m907 ms - 14[39m
+[35m[HTTP][39m [90m[39m
